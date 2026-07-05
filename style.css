@@ -2,7 +2,7 @@ body{
 
 background:#f3f6fa;
 
-font-family:Arial,sans-serif;
+font-family:Arial, Helvetica, sans-serif;
 
 display:flex;
 
@@ -10,7 +10,7 @@ justify-content:center;
 
 align-items:center;
 
-height:100vh;
+padding:40px 20px;
 
 margin:0;
 
@@ -18,23 +18,25 @@ margin:0;
 
 .card{
 
-background:white;
+background:#fff;
 
 padding:40px;
 
 border-radius:25px;
 
-box-shadow:0 15px 35px rgba(0,0,0,.15);
+box-shadow:0 15px 35px rgba(0,0,0,.12);
 
 text-align:center;
 
-width:350px;
+max-width:420px;
+
+width:100%;
 
 }
 
 .logo{
 
-width:180px;
+width:200px;
 
 margin-bottom:20px;
 
@@ -44,7 +46,9 @@ h1{
 
 color:#183153;
 
-margin:10px 0;
+margin:0;
+
+font-size:34px;
 
 }
 
@@ -52,9 +56,23 @@ h3{
 
 color:#666;
 
-margin-top:0;
+font-weight:500;
 
-font-weight:400;
+margin-top:10px;
+
+margin-bottom:25px;
+
+}
+
+.subtitle{
+
+color:#183153;
+
+font-size:17px;
+
+font-weight:600;
+
+margin-bottom:8px;
 
 }
 
@@ -62,7 +80,19 @@ font-weight:400;
 
 color:#B11D2A;
 
-font-weight:bold;
+font-size:22px;
+
+font-weight:700;
+
+margin-bottom:20px;
+
+}
+
+.intro{
+
+color:#555;
+
+line-height:1.6;
 
 margin-bottom:30px;
 
@@ -84,9 +114,9 @@ margin:12px 0;
 
 border-radius:12px;
 
-font-weight:bold;
+font-weight:600;
 
-transition:.3s;
+transition:0.3s;
 
 }
 
@@ -99,5 +129,11 @@ background:#B11D2A;
 .save{
 
 background:#B11D2A;
+
+}
+
+.save:hover{
+
+background:#183153;
 
 }
